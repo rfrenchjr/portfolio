@@ -1,0 +1,170 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    color: var(--font-color);
+    background-color: #800080;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  :root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+  
+    --border-radius: 12px;
+  
+    --font-color: #323232;
+  }
+  
+  a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  h1 {
+    color: #800080;
+  }
+
+  h1, a {
+    color: #800080;
+  }
+   
+   
+  p, 
+  li {
+    font-size: 18px;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin: var(--spacing-1);
+  }
+
+  .portrait {
+    width: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+  }
+  
+  .about-me-container {
+    display: inline-flex;
+  }
+  
+  .about-me-text-container {
+    margin-right: var(--spacing-3);
+  }
+
+  .project-image {
+    width: 50%;
+  }
+  
+  .project-title h3 {
+    display: inline;
+  }
+  
+  details {
+    cursor: pointer;
+  }
+  
+  summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: 0 var(--spacing-3);
+    text-align: center;
+    
+  }
+  
+  section {
+    padding: var(--spacing-3) 0;
+  }
+
+  #logo {
+    margin: 0;
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: var(--font-color);
+    margin: 0 var(--spacing-1);
+  }
+
+  #skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #skills-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: var(--spacing-1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
+
+  .skill-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    
+  
+  }
+  
+  .skill-item {
+    margin: var(--spacing-4);
+  }
+
+  .contact-me-container {
+    display: flex;
+  }
+  
+  .contact-me-text-container {
+    margin-right: var(--spacing-3);
+  }

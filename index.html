@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Roger French's Portfolio</title>
+  <meta name="A portfolio for Roger French" content="Projects, skill sets, and information about Roger French">
+  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/all.min.css" type="text/css" rel="stylesheet">
+  <script src="./resources/js/script.js"></script>
+  <script src="https://kit.fontawesome.com/a8799f0fb2.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+</head>
+<body>
+  <header id="head">
+    <nav id="nav bar">
+      <h1>Roger French</h1>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#about-me">About Me</a></li>
+        <li class="nav-item"><a href="#projects">Projects</a></li>
+        <li class="nav-item"><a href="#skills">Skills</a></li>
+        <li class="nav-item"><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+  </header>
+    
+  <main>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <div class="about-me-container">
+        <div class="about-me-text">
+          <p>
+            Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et pretium aliquam phasellus ipsum metus quisque auctor tristique donec nibh, praesent congue ultricies aenean ornare ligula sagittis proin sed vestibulum purus tempus aenean neque aliquam curae vivamus purus egestas ligula tincidunt nullam.
+          </p>
+        </div>
+        <img src="https://i.imgur.com/zChD9oG.jpg" alt="a photo of me and my wife" class="portrait" id="imgClickAndChange" onclick="changeImage()" />
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <details class="project">
+        <summary class="project-title">
+          <h3>Project One</h3>
+        </summary>
+        <img src="" alt="project one image" class="project-image" />
+        <p class="project-description">
+          Text goes here
+        </p>
+      </details>
+      <details class="project">
+        <summary class="project-title">
+          <h3>Project Two</h3>
+        </summary>
+        <img src="" alt="project two image" class="project-image" />
+        <p class="project-description">
+          Text goes here
+        </p>
+      </details>
+      <details class="project">
+        <summary class="project-title">
+          <h3>Project Three</h3>
+        </summary>
+        <img src="" alt="project three image" class="project-image" />
+        <p class="project-description">
+          Text goes here
+        </p>
+      </details>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div id="skills-container">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-git"></i>
+        <i class="fab fa-chrome"></i>
+        <i class="fas fa-terminal"></i>
+        <i class="fab fa-node"></i>
+        <i class="fab fa-github"></i>
+      </div>
+    </section>
+  </main>
+  <footer>Made by Roger French.</footer>
+</body>
+
+</html>
