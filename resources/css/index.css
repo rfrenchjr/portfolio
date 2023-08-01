@@ -8,7 +8,6 @@
   
   html,
   body {
-    height: 100%;
     color: var(--font-color);
     background-color: #800080;
   }
@@ -86,11 +85,15 @@
   }
   
   .about-me-container {
-    display: inline-flex;
+    display: flex;
   }
   
   .about-me-text-container {
     margin-right: var(--spacing-3);
+  }
+
+  figure figcaption {
+    text-align:center;
   }
 
   .project-image {
